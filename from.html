@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            input type
+        </title>
+        <link rel="stylesheet" href="/form.css">
+    </head>
+    <body>
+        <form> 
+            <header class="headerContainer"><h1>HTML 5 FORM</h1></header>
+            <div>
+                <label for="text">Enter name </label>
+                <input type="text" name="text" id="text">
+                <error-output class="text-error" for="text"></error-output>
+            </div>
+            <div>
+                <label for="pwd">password input type:</label>
+                <input type="password" name="pwd" id="pwd">
+            </div>
+            <div><label for="email">Enter email</label>
+            <input type="email" id="email" name="email">
+            <error-output class="email-error" for="email"></error-output>
+            </div>
+            <div class="nativeDateTimePicker">
+                <label for="party"> choose a date and time</label>
+                <input type="datetime-local" id="party" name="bday">
+                <span class="valadity"></span>
+            </div>
+            <div> <button>Submit</button></div>
+        </form>
+        <script src="/form.js"></script>
+    </body>
+</html>
